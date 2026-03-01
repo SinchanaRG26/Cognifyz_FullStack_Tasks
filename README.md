@@ -32,10 +32,12 @@ This repository contains my tasks and projects completed during the Full Stack D
 ### 📷 Screenshots
 ## 📸 Task 1 Screenshot
 
-### Registration Form
+### REGISTRATION FORM
 ![Task 1 Registration Form](https://github.com/user-attachments/assets/cadd024c-10e6-4041-9fd5-96052f202b02)
+
+### FORM SUBMISSION SUCCESS
 2. Form Submission Success
-<img width="800" alt="Form Submission Success Response" src="https://github.com/user-attachments/assets/42b5716e-7e81-4d2e-b35c-6f0a22f7a624" />
+![Task 1 Form submission success](https://github.com/user-attachments/assets/42b5716e-7e81-4d2e-b35c-6f0a22f7a624)
 
 ## 📬 Contact
 - LinkedIn: [(https://www.linkedin.om/in/sinchana-ravi-gowda-27146932a/)]
