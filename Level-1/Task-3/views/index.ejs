@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz  | Foodie Haven</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar (Responsive) - REMOVED "Task 3" -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-utensils"></i> Foodie Haven
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Animation -->
+    <section id="home" class="hero-section">
+        <div class="container text-center">
+            <h1 class="animate-title">Welcome to Foodie Haven</h1>
+            <p class="lead animate-text">Where Every Meal Tells a Story</p>
+            <button class="btn btn-primary btn-lg animate-button">Explore Menu</button>
+        </div>
+    </section>
+
+    <!-- Features Cards Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Why Choose Us?</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-leaf fa-3x mb-3 text-success"></i>
+                            <h5 class="card-title">Fresh Ingredients</h5>
+                            <p class="card-text">We use only the freshest, locally-sourced ingredients in every dish.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-truck fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Fast Delivery</h5>
+                            <p class="card-text">Hot and fresh food delivered to your doorstep in 30 minutes or less.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chef-hat fa-3x mb-3 text-warning"></i>
+                            <h5 class="card-title">Expert Chefs</h5>
+                            <p class="card-text">Our chefs bring years of experience and passion to every meal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Our Delicious Gallery</h2>
+            <div class="row g-3">
+                <!-- Pizza -->
+                <div class="col-md-3 col-6">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="Margherita Pizza">
+                        <div class="overlay">
+                            <span>Margherita Pizza</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Burger -->
+                <div class="col-md-3 col-6">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="Gourmet Burger">
+                        <div class="overlay">
+                            <span>Gourmet Burger</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pasta -->
+                <div class="col-md-3 col-6">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="Creamy Pasta">
+                        <div class="overlay">
+                            <span>Creamy Pasta</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Salad -->
+                <div class="col-md-3 col-6">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="Fresh Salad">
+                        <div class="overlay">
+                            <span>Fresh Salad</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sushi -->
+                <div class="col-md-3 col-6 mt-3">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="Sushi Platter">
+                        <div class="overlay">
+                            <span>Sushi Platter</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dessert -->
+                <div class="col-md-3 col-6 mt-3">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="Chocolate Cake">
+                        <div class="overlay">
+                            <span>Chocolate Cake</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Coffee -->
+                <div class="col-md-3 col-6 mt-3">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="Coffee">
+                        <div class="overlay">
+                            <span>Fresh Coffee</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breakfast -->
+                <div class="col-md-3 col-6 mt-3">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="img-fluid rounded" alt="Breakfast">
+                        <div class="overlay">
+                            <span>Healthy Breakfast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">What Our Foodies Say</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3" alt="Sarah">
+                        <p class="testimonial-text">"Best pizza in town! The crust is perfect and toppings are fresh."</p>
+                        <h5>- Sarah Johnson</h5>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3" alt="Mike">
+                        <p class="testimonial-text">"The burgers are absolutely delicious. Fast delivery too!"</p>
+                        <h5>- Mike Thompson</h5>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle mb-3" alt="Emily">
+                        <p class="testimonial-text">"Love their pasta! Always creamy and perfectly cooked."</p>
+                        <h5>- Emily Davis</h5>
+                        <div class="stars">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section - WITH FIXED PHONE VALIDATION -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Reserve Your Table</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="contact-form" onsubmit="return validateForm()">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required>
+                                <small class="text-muted">Enter 10-digit mobile number</small>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" id="date" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="time" class="form-control" id="time" required>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-control" id="guests">
+                                    <option>2 Persons</option>
+                                    <option>4 Persons</option>
+                                    <option>6 Persons</option>
+                                    <option>8+ Persons</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="3" placeholder="Special Requests" id="requests"></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2026 Foodie Haven. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Phone Number Validation Script -->
+    <script>
+        function validateForm() {
+            const phone = document.getElementById('phone').value;
+            
+            // Remove any non-digit characters
+            const cleanPhone = phone.replace(/\D/g, '');
+            
+            // Check if phone number is exactly 10 digits
+            if (cleanPhone.length !== 10) {
+                alert('❌ Please enter a valid 10-digit phone number');
+                return false;
+            }
+            
+            // Check if it contains only numbers
+            if (isNaN(cleanPhone)) {
+                alert('❌ Phone number should contain only digits');
+                return false;
+            }
+            
+            // If all validations pass
+            alert('✅ Table booked successfully! We\'ll contact you soon.');
+            return true;
+        }
+    </script>
+</body>
+</html>
