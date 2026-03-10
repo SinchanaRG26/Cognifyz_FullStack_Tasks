@@ -1,1 +1,120 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 | Smart Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="nav-bar">
+            <div class="nav-links">
+                <button class="nav-link active" data-page="home">🏠 Home</button>
+                <button class="nav-link" data-page="profile">👤 Profile</button>
+                <button class="nav-link" data-page="dashboard">📊 Dashboard</button>
+            </div>
+        </nav>
+        
+        <!-- Home Page - Registration Form -->
+        <div id="home" class="page active">
+            <h1 class="form-title">📝 Smart Registration</h1>
+            
+            <!-- Live User Counter -->
+            <div class="user-counter" id="user-count">
+                👥 Registered Users: <%= users ? users.length : 0 %>
+            </div>
+            
+            <form id="registration-form">
+                <!-- Username -->
+                <div class="form-group">
+                    <label>Username:</label>
+                    <input type="text" name="username" id="username" placeholder="Choose username" required>
+                    <div id="username-indicator" class="live-indicator"></div>
+                </div>
+                
+                <!-- Email -->
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" name="email" id="email" placeholder="your@email.com" required>
+                    <div id="email-indicator" class="live-indicator"></div>
+                </div>
+                
+                <!-- Password -->
+                <div class="form-group">
+                    <label>Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Create password" required>
+                    
+                    <div class="strength-meter">
+                        <div id="strength-meter" class="strength-meter-fill strength-0"></div>
+                    </div>
+                    <div id="strength-text" style="text-align: right; font-size: 0.875rem;">Very Weak</div>
+                    
+                    <div class="checklist">
+                        <div id="check-length" class="checklist-item">
+                            <i class="fas fa-circle"></i> At least 8 characters
+                        </div>
+                        <div id="check-uppercase" class="checklist-item">
+                            <i class="fas fa-circle"></i> Contains uppercase
+                        </div>
+                        <div id="check-number" class="checklist-item">
+                            <i class="fas fa-circle"></i> Contains number
+                        </div>
+                        <div id="check-special" class="checklist-item">
+                            <i class="fas fa-circle"></i> Contains special character
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Confirm Password -->
+                <div class="form-group">
+                    <label>Confirm Password:</label>
+                    <input type="password" id="confirm-password" placeholder="Re-enter password" required>
+                    <div id="confirm-indicator" class="live-indicator"></div>
+                </div>
+                
+                <!-- Age -->
+                <div class="form-group">
+                    <label>Age:</label>
+                    <input type="number" name="age" id="age" placeholder="Enter age" required>
+                    <div id="age-indicator" class="live-indicator"></div>
+                </div>
+                
+                <!-- Phone -->
+                <div class="form-group">
+                    <label>Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="10-digit mobile" required>
+                    <div id="phone-indicator" class="live-indicator"></div>
+                </div>
+                
+                <!-- Terms -->
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="terms" required>
+                        I agree to Terms & Conditions
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn" id="submit-btn" disabled>📝 Register</button>
+            </form>
+        </div>
+        
+        <!-- Profile Page -->
+        <div id="profile" class="page">
+            <!-- Content will be loaded from server -->
+        </div>
+        
+        <!-- Dashboard Page -->
+        <div id="dashboard" class="page">
+            <!-- Content will be loaded from server -->
+        </div>
+    </div>
+    
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
