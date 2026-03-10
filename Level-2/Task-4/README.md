@@ -62,58 +62,61 @@
 | **EJS** | Server-side templating engine |
 | **Font Awesome** | Icons and visual elements |
 
----
 
-### 📂 Project Structure
-task-4/
-├── server.js # Express server configuration
-├── package.json # Dependencies and scripts
-├── views/
-│ ├── index.ejs # Home page - Registration form
-│ ├── profile.ejs # Profile page with edit/settings
-│ └── dashboard.ejs # Dashboard with user list
-├── public/
-│ ├── style.css # Global styles
-│ └── script.js # Client-side functionality
-└── README.md # Project documentation
 
 
 📷 Screenshots
 
 📸 Task 4 Screenshots
+
 **REGISTRATION FORM**
-Smart registration form with real-time validation
+
+_Smart registration form with real-time validation_
 <img width="1920" height="983" alt="41" src="https://github.com/user-attachments/assets/ea2da904-6aec-4c01-aea2-a02f4c93098b" />
+<img width="1917" height="1023" alt="43" src="https://github.com/user-attachments/assets/a2e00ac0-f471-400f-9226-2854bf41d312" />
 
-<img width="1920" height="996" alt="44" src="https://github.com/user-attachments/assets/fb7c4905-1c8f-450b-8a72-00e2b6aef4c3" />
 
-PASSWORD STRENGTH VALIDATION
-Live password strength meter with checklist
+-----
+**PASSWORD STRENGTH VALIDATION**
+
+_Live password strength meter with checklist_
 <img width="1920" height="1026" alt="42" src="https://github.com/user-attachments/assets/bec5eb66-04e5-4477-b118-61bf51c4b85e" />
 
-PROFILE PAGE
-Dynamic profile showing most recent user
-<img width="1916" height="852" alt="45" src="https://github.com/user-attachments/assets/20c991a8-f388-43ed-ae5b-913e5a2e0ece" />
+---
+**PROFILE PAGE**
+
+_Dynamic profile showing most recent user_
 <img width="1920" height="1014" alt="441" src="https://github.com/user-attachments/assets/3cc95866-fc9f-47a4-9111-0bb60972e484" />
 
-EDIT PROFILE FORM
-Inline edit functionality with save/cancel
+----
+
+**EDIT PROFILE FORM**
+
+_Inline edit functionality with save/cancel_
 <img width="1916" height="852" alt="45" src="https://github.com/user-attachments/assets/32d4c2a3-f15f-4a01-b4fe-577b6abcb962" />
 <img width="1908" height="923" alt="46" src="https://github.com/user-attachments/assets/8d89eace-0a82-4774-a785-025136ebd477" />
 <img width="1920" height="986" alt="47" src="https://github.com/user-attachments/assets/7bcc16f1-cf79-4f0f-93fe-0ac4a1fe2fbd" />
 
-SETTINGS PANEL
-Interactive settings with dark mode and language options
-<img width="1920" height="973" alt="48" src="https://github.com/user-attachments/assets/05cb6f1e-7180-4d80-a1b8-9872f54f6913" />
-<img width="1920" height="903" alt="49" src="https://github.com/user-attachments/assets/0c0aaf06-3610-4aa8-9691-bb56f1a81246" />
 
-DARK MODE
-Dark mode toggle working throughout the page
+----
+**SETTINGS PANEL**
+
+_Interactive settings with dark mode and language options_
+<img width="1920" height="973" alt="48" src="https://github.com/user-attachments/assets/05cb6f1e-7180-4d80-a1b8-9872f54f6913" />
+
+
+----
+
+**DARK MODE**
+
+_Dark mode toggle working throughout the page_
 <img width="1909" height="992" alt="481" src="https://github.com/user-attachments/assets/f72709c4-92a3-4aca-a3a2-fd07ade0cd52" />
 
-DASHBOARD
-https://github.com/user-attachments/assets/4c06e02a-0fd9-411c-ace7-3e74a2cacc7f
-User dashboard with search functionality
+----
+
+**__DASHBOARD__**
+
+_User dashboard with search functionality_
 <img width="1920" height="903" alt="49" src="https://github.com/user-attachments/assets/3b25f57f-88d9-4940-9ca4-050cee806e45" />
 <img width="1920" height="1004" alt="491" src="https://github.com/user-attachments/assets/be7149a4-142c-440a-8e84-45a5644d8f56" />
 
